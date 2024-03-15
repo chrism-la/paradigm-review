@@ -2,10 +2,11 @@
 '''Implement a function that will flatten and sort an array of integers in ascending order, and which adheres to a functional programming paradigm.'''
 
 def asc_order(list):
-  result = new_list()
-  for num in list:
+  result = []
+  for sublist in list:
+    for element in sublist:
 
-    return new_list()
+    return result 
     
 
 
