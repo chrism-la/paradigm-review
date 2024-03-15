@@ -1,14 +1,21 @@
 #Functional Programming Prompt
 '''Implement a function that will flatten and sort an array of integers in ascending order, and which adheres to a functional programming paradigm.'''
 
+
+
 def asc_order(arr):
   result = []
+#Flattening using List comprehension
   for subarr in arr:
     for element in subarr:
       result.append(element)
   return result 
-arr1 = [[1,2,3,4],[5,6,7]]
+
+
+arr1 = [[1,2,4,7],[5,6,3]]
+arr2 = [["hello","my"],["friend"]]
 print(asc_order(arr1))
+print(asc_order(arr2))
     
 
 
