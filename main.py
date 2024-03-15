@@ -1,7 +1,12 @@
 #Functional Programming Prompt
 '''Implement a function that will flatten and sort an array of integers in ascending order, and which adheres to a functional programming paradigm.'''
 
+def asc_order(list):
+  result = new_list()
+  for num in list:
 
+    return new_list()
+    
 
 
 
@@ -21,7 +26,7 @@
 
 #Object Oriented Prompt
 '''
-Watto needs a new system for organizing his inventory of podracers. Help him do this by implementing an Object Oriented solution according to the following criteria.
+ Watto needs a new system for organizing his inventory of podracers. Help him do this by implementing an Object Oriented solution according to the following criteria.
 
 First, he'll need a general Podracer class defined with max_speed, condition (perfect, trashed, repaired) and price attributes.
 Define a repair() method that will update the condition of the podracer to "repaired".
