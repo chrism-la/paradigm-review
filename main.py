@@ -9,6 +9,7 @@ def asc_order(arr):
   for subarr in arr:
     for element in subarr:
       result.append(element)
+      result.sort()
   return result 
 
 
