@@ -22,7 +22,7 @@ class AnakinsPod(Podracer):
 
   def boost(self):
     self.max_speed *= 2
-    
+
 
 class SebulbasPod(Podracer):
   def __init__(self,max_speed,condition,price):
@@ -30,3 +30,19 @@ class SebulbasPod(Podracer):
 
   def flame_jet(self, other_podracer):
     other_podracer.condition = "trashed"
+
+
+
+regular_podracer = Podracer(max_speed=250,condition="perfect",price=9999)
+
+anakins_podracer = AnakinsPod(max_speed=300,condition="perfect",price=999999)
+anakins_podracer.boost()
+
+sebulbas_podracer = SebulbasPod(max_speed=150,condition="trashed",price=9)
+sebulbas_podracer.flame_jet(regular_podracer)
+
+regular_podracer.repair()
+
+print(regular_podracer.max_speed, regular_podracer.condition, regular_podracer.price)
+print(anakins_podracer.max_speed,anakins_podracer.condition,anakins_podracer.price)
+print(sebulbas_podracer.max_speed,sebulbas_podracer.condition,sebulbas_podracer.price)
