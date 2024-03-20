@@ -4,14 +4,20 @@
 
 
 def asc_order(arr):
+#1st iteration
+  '''
   result = []
-#Flattening using List comprehension
   for subarr in arr:
     for element in subarr:
       result.append(element)
       result.sort()
-  return result 
-
+  return result
+  ''' 
+#Flattening using List comprehension
+  result = [element for subarr in arr for element in subarr]
+  result.sort()
+  return result
+  
 
 arr1 = [[1,2,4,7],[5,6,3]]
 arr2 = [["hello","my"],["friend"]]
