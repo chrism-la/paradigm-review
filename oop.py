@@ -54,7 +54,7 @@ Abstraction
 Inheritance: AnakinsPod and SebulbasPod inherit from Podracer as they are subclasses
 Polymorphism: the methods such as flame_jet take in Podracer as an argument which will then modify the object
 Would it have been easier to implement a solution to this problem using a different coding style? Why or why not?
-i dont think so because from what ive learned real world entities that have attributes and behaviors.
+i dont think so because from what ive learned real world entities that have attributes and behaviors are modeled better using an OOp approach.
 How in particular did Object Oriented Programming assist in the solving of this problem?
 It promotes modularity, reusability, and maintainability
 '''
