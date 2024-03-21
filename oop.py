@@ -46,3 +46,15 @@ regular_podracer.repair()
 print(regular_podracer.max_speed, regular_podracer.condition, regular_podracer.price)
 print(anakins_podracer.max_speed,anakins_podracer.condition,anakins_podracer.price)
 print(sebulbas_podracer.max_speed,sebulbas_podracer.condition,sebulbas_podracer.price)
+
+'''
+How does this solution demonstrate the four pillars of OOP? (It may not demonstrate all of them, describe only those that apply)
+Encapsulation: the core concept present in all OOP because classes encapsulate its attributes and methods
+Abstraction
+Inheritance: AnakinsPod and SebulbasPod inherit from Podracer as they are subclasses
+Polymorphism: the methods such as flame_jet take in Podracer as an argument which will then modify the object
+Would it have been easier to implement a solution to this problem using a different coding style? Why or why not?
+i dont think so because from what ive learned real world entities that have attributes and behaviors.
+How in particular did Object Oriented Programming assist in the solving of this problem?
+It promotes modularity, reusability, and maintainability
+'''

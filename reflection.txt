@@ -1,0 +1,28 @@
+1: Is one of these coding paradigms "better" than the other? Why or why not?
+
+I believe this is very subjective and dependent on the problem at hand. One paradigm might work better or both in conjunction.
+
+
+
+
+
+2: Given the opportunity to work predominantly using either of these coding paradigms, which seems more appealing? Why?
+
+I personally prefer functional programming because of its emphasis on simplicity and mathematical foundations. Part of my initial idea of programming revolved around it being very mathematical which is what drew me into the field.
+
+
+
+
+3: Now being more familiar with these coding paradigms, what tasks/features/pieces of logic would be best handled using functional programming? Object Oriented Programming?
+
+FP can be used for implementing algorithms that can be expressed mathematically. 
+OOP can be used to model real-world objects with attributes and behaviors.
+along with a variety and multitude of other reasons 
+
+
+
+
+4: Personally, which of these styles takes more work to understand? What should be done in order to deepen understanding related to this paradigm?
+
+Both styles may be more intuitive depending on the person. The best way to deepen understanding and have a firm grasp on both styles is by practice of course. Implementing each style to solve a specific problem is the best way to familiarize ourselves with the concepts.
+
